@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Ritsuka 粒子互動動畫</title>
+    <!-- 引入外部 CSS 檔案 -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <canvas id="particleCanvas"></canvas>
+    
+    <!-- 發光按鈕與提示文字的容器 -->
+    <div id="ui-container">
+        <button id="colorBtn" class="glow-button">切換顏色</button>
+        <div id="instructions">請移動滑鼠或在螢幕上滑動來互動</div>
+    </div>
+
+    <!-- 引入外部 JavaScript 檔案 (放在 body 結尾確保 HTML 先載入) -->
+    <script src="main.js"></script>
+</body>
+</html>
